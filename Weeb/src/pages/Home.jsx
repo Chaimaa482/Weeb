@@ -5,7 +5,7 @@ export default function Home() {
       <section className="max-w-5xl mx-auto px-6 text-center mt-20">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
           Explorez le{" "}
-          <span className="text-purple-400">Web</span>{" "}
+          <span className="text-purple-400 font-normal">Web</span>{" "}
           sous toutes <br />
           ses{" "}
           <span className="relative inline-block">
@@ -23,10 +23,10 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
-          <button className="bg-purple-600 hover:bg-purple-700 transition px-6 py-3 rounded-lg font-medium">
+          <button className="bg-purple-600 cursor-pointer hover:bg-purple-700 transition px-6 py-3 rounded-lg font-medium">
             Découvrir les articles
           </button>
-          <button className="border border-gray-500 hover:border-white transition px-6 py-3 rounded-lg font-medium">
+          <button className="border border-white cursor-pointer transition px-6 py-3 rounded-lg font-medium">
             S'abonner à la newsletter
           </button>
         </div>
