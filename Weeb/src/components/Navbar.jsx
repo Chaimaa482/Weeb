@@ -32,12 +32,24 @@ export default function Navbar() {
         </ul>
 
         <div className="flex items-center gap-8 text-ms">
-          <button className="cursor-pointer">
+          <NavLink
+              to="/login"
+              className={({ isActive }) =>
+                isActive ? "font-bold" : ""
+              }
+            >
             Log In
-          </button>
-          <button className="cursor-pointer bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-lg">
-            Join Now
-          </button>
+            </NavLink>
+
+            <NavLink
+              to="/signup"
+              className={({ isActive }) =>
+                  `bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-lg ${
+                    isActive ? "font-bold" : ""
+                  }`
+                } >   
+                Join Now
+            </NavLink>
         </div>
       </nav>
     </header>
