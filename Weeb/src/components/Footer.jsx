@@ -71,11 +71,31 @@ export default function Footer() {
 
           {/* Social icons */}
           <div className="flex items-center gap-5 text-gray-500">
-            <img className="hover:text-gray-900 cursor-pointer" src="youtube.png" alt="youtube"></img>
-            <img className="hover:text-gray-900 cursor-pointer" src="facebook.png" alt="facebook"></img>
-            <img className="hover:text-gray-900 cursor-pointer" src="twitter.png" alt="twitter"></img>
-            <img className="hover:text-gray-900 cursor-pointer" src="instagram.png" alt="instagram"></img>
-            <img className="hover:text-gray-900 cursor-pointer" src="linkedin.png" alt="linkedin"></img>
+            <img
+              className="hover:text-gray-900 cursor-pointer"
+              src="youtube.png"
+              alt="youtube"
+            ></img>
+            <img
+              className="hover:text-gray-900 cursor-pointer"
+              src="facebook.png"
+              alt="facebook"
+            ></img>
+            <img
+              className="hover:text-gray-900 cursor-pointer"
+              src="twitter.png"
+              alt="twitter"
+            ></img>
+            <img
+              className="hover:text-gray-900 cursor-pointer"
+              src="instagram.png"
+              alt="instagram"
+            ></img>
+            <img
+              className="hover:text-gray-900 cursor-pointer"
+              src="linkedin.png"
+              alt="linkedin"
+            ></img>
           </div>
         </div>
       </div>

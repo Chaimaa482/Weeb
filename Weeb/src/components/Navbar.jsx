@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
   return (
@@ -12,9 +12,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) =>
-                isActive ? "font-bold" : ""
-              }
+              className={({ isActive }) => (isActive ? 'font-bold' : '')}
             >
               Home
             </NavLink>
@@ -22,9 +20,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to="/contact"
-              className={({ isActive }) =>
-                isActive ? "font-bold" : ""
-              }
+              className={({ isActive }) => (isActive ? 'font-bold' : '')}
             >
               Contact
             </NavLink>
@@ -33,23 +29,22 @@ export default function Navbar() {
 
         <div className="flex items-center gap-8 text-ms">
           <NavLink
-              to="/login"
-              className={({ isActive }) =>
-                isActive ? "font-bold" : ""
-              }
-            >
+            to="/login"
+            className={({ isActive }) => (isActive ? 'font-bold' : '')}
+          >
             Log In
-            </NavLink>
+          </NavLink>
 
-            <NavLink
-              to="/signup"
-              className={({ isActive }) =>
-                  `bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-lg ${
-                    isActive ? "font-bold" : ""
-                  }`
-                } >   
-                Join Now
-            </NavLink>
+          <NavLink
+            to="/signup"
+            className={({ isActive }) =>
+              `bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-lg ${
+                isActive ? 'font-bold' : ''
+              }`
+            }
+          >
+            Join Now
+          </NavLink>
         </div>
       </nav>
     </header>
