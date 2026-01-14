@@ -31,7 +31,7 @@ export default function Home() {
           </button>
         </div>
       </section>
-        <div className="relative shadow-2xl overflow-hidden max-w-6xl mx-auto px-6 mt-24">
+        <div className="relative shadow-2xl overflow-hidden max-w-6xl mx-auto px-6 mt-20">
           <img
             src="FirstPreview.png"
             alt="App preview"
@@ -40,10 +40,10 @@ export default function Home() {
         </div>
 
       {/* TRUSTED BY */}
-      <section className="max-w-6xl mx-auto px-6 mt-24 text-center">
-        <h3 className="text-lg font-semibold mb-10">
+      <section className="max-w-6xl mx-auto px-6 mt-20 text-center">
+        <h2 className="font-semibold mb-15 text-5xl">
           Ils nous font confiance
-        </h3>
+        </h2>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-10 items-center text-gray-400">
           <img src="SmartFinder.png" alt="SmartFinder" className="mx-auto h-6" />
@@ -57,12 +57,12 @@ export default function Home() {
       {/* LEARN & PROGRESS */}
       <section className="max-w-7xl mx-auto px-6 mt-32 grid md:grid-cols-2 gap-16 items-center">
         <div>
-          <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">
+          <p className="text-ms uppercase tracking-widest text-white mb-3">
             Des ressources pour tous les niveaux
           </p>
 
-          <h2 className="text-4xl font-extrabold mb-6">
-            <span className="text-purple-400">Apprenez</span> et progressez
+          <h2 className="text-5xl font-extrabold mb-6 max-w-lg">
+            <span className="text-purple-400">Apprenez</span> et <span className="text-purple-400">progressez</span>
           </h2>
 
           <p className="text-gray-400 max-w-lg mb-6">
@@ -71,7 +71,7 @@ export default function Home() {
             des tutoriels, guides et bonnes pratiques adaptés à votre niveau.
           </p>
 
-          <button className="text-purple-400 font-medium hover:underline">
+          <button className="text-white font-medium hover:underline cursor-pointer">
             Explorer les ressources →
           </button>
         </div>
@@ -96,13 +96,13 @@ export default function Home() {
         </div>
 
         <div>
-          <p className="text-sm uppercase tracking-widest text-gray-400 mb-3">
+          <p className="text-ms uppercase tracking-widest text-white mb-3">
             Le web, un écosystème en constante évolution
           </p>
 
-          <h2 className="text-4xl font-extrabold mb-6">
-            Restez informé des{" "}
-            <span className="text-purple-400">dernières tendances</span>
+          <h2 className="text-5xl font-extrabold mb-6">
+            Restez informé des dernières {" "}
+            <span className="text-purple-400">tendances</span>
           </h2>
 
           <p className="text-gray-400 max-w-lg mb-6">
@@ -110,7 +110,7 @@ export default function Home() {
             frameworks émergents, bonnes pratiques SEO et accessibilité.
           </p>
 
-          <button className="text-purple-400 font-medium hover:underline">
+          <button className="text-white font-medium hover:underline cursor-pointer">
             Lire les articles récents →
           </button>
         </div>
