@@ -17,7 +17,7 @@ export default function Navbar() {
               to="/"
               className={({ isActive }) => (isActive ? 'font-bold' : '')}
             >
-              Home
+              Accueil 
             </NavLink>
           </li>
           <li>
@@ -35,7 +35,7 @@ export default function Navbar() {
             to="/login"
             className={({ isActive }) => (isActive ? 'font-bold' : '')}
           >
-            Log In
+            Se connecter 
           </NavLink>
 
           <NavLink
@@ -46,7 +46,7 @@ export default function Navbar() {
               }`
             }
           >
-            Join Now
+            S'inscrire
           </NavLink>
         </div>
         {/* Mobile hamburger */}

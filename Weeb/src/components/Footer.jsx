@@ -8,14 +8,14 @@ export default function Footer() {
         <div className="flex flex-col gap-10 sm:grid grid-cols-2 md:grid-cols-5">
           <div>
             <h3 className="text-xs font-semibold tracking-widest text-gray-400 uppercase mb-4">
-              Product
+              Produit
             </h3>
             <ul className="space-y-3 text-sm text-gray-600">
-              <li>Pricing</li>
-              <li>Overview</li>
-              <li>Browse</li>
-              <li>Accessibility</li>
-              <li>Five</li>
+              <li>Tarifs</li>
+              <li>Présentation</li>
+              <li>Parcourir</li>
+              <li>Accessibilité</li>
+              <li>Cinq</li>
             </ul>
           </div>
 
@@ -25,39 +25,39 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3 text-sm text-gray-600">
               <li>Brainstorming</li>
-              <li>Ideation</li>
-              <li>Wireframing</li>
-              <li>Research</li>
+              <li>Idéation</li>
+              <li>Maquettage</li>
+              <li>Recherche</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xs font-semibold tracking-widest text-gray-400 uppercase mb-4">
-              Resources
+              Ressources
             </h3>
             <ul className="space-y-3 text-sm text-gray-600">
-              <li>Help Center</li>
+              <li>Centre d’aide</li>
               <li>Blog</li>
-              <li>Tutorials</li>
+              <li>Tutoriels</li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-xs font-semibold tracking-widest text-gray-400 uppercase mb-4">
-              Company
+              Entreprise
             </h3>
             <ul className="space-y-3 text-sm text-gray-600">
-              <li>About</li>
+              <li>À propos</li>
               <li>Press</li>
-              <li>Events</li>
-              <li>Careers</li>
+              <li>Événements</li>
+              <li>Carrières</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-gray-200 mt-12 pt-6 flex flex-col items-center gap-6 md:flex-row md:justify-between">
           <p className="text-sm text-gray-400 text-center md:text-left">
-            © 2025 Weeb, Inc. All rights reserved.
+            © 2025 Weeb, Inc. Tous droits réservés.
           </p>
 
           <div className="flex items-center gap-5">

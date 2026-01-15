@@ -61,7 +61,7 @@ function Contact() {
                 type="submit"
                 className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-md shadow-md transition"
               >
-                Contact
+                Envoyer
               </button>
             </div>
           </form>

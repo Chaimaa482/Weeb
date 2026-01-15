@@ -26,7 +26,7 @@ function Signup() {
 
             <div>
               <label className="block text-purple-300 text-sm mb-2">
-                Password
+                Mot de passe
               </label>
               <input
                 type="password"
@@ -36,7 +36,7 @@ function Signup() {
 
             <div>
               <label className="block text-purple-300 text-sm mb-2">
-                Confirm password
+                Confirmer mot de passe
               </label>
               <input
                 type="password"
@@ -49,7 +49,7 @@ function Signup() {
                 type="submit"
                 className="px-6 py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-md shadow-md transition"
               >
-                Sign up
+                S'inscrire
               </button>
             </div>
           </form>

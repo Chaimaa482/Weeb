@@ -24,7 +24,7 @@ function Login() {
 
             <div>
               <label className="block text-purple-300 text-sm mb-2">
-                Password
+                Mot de passe
               </label>
               <input
                 type="password"
