@@ -1,10 +1,10 @@
 function Contact() {
   return (
     <>
-      <section className="max-w-5xl mx-auto px-6 text-center m-20">
+      <section className="max-w-5xl mx-auto px-15 md:px-6  text-center m-20">
         {/* Header */}
         <div className="mb-12 rounded-lg">
-          <h1 className="text-6xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Votre avis compte !
           </h1>
           <p className="mt-8 text-gray-400 max-w-3xl mx-auto">

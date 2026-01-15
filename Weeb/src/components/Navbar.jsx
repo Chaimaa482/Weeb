@@ -1,8 +1,11 @@
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <header className="max-w-5xl mx-auto shadow-2xl rounded-2xl p-5 bg-white/5">
+    <header className=" max-w-4/5 xl:max-w-5xl mx-auto shadow-2xl rounded-2xl p-5 bg-white/5 ">
       <nav className="flex items-center justify-between">
         <NavLink to="/" className="text-2xl font-bold">
           weeb
@@ -27,7 +30,7 @@ export default function Navbar() {
           </li>
         </ul>
 
-        <div className="flex items-center gap-8 text-ms">
+        <div className="hidden md:flex items-center gap-8 text-ms">
           <NavLink
             to="/login"
             className={({ isActive }) => (isActive ? 'font-bold' : '')}
@@ -46,7 +49,38 @@ export default function Navbar() {
             Join Now
           </NavLink>
         </div>
+        {/* Mobile hamburger */}
+        <button onClick={() => setOpen(!open)} className="md:hidden text-2xl">
+          ☰
+        </button>
       </nav>
+
+      {/* Mobile menu */}
+      {open && (
+        <div className="md:hidden mt-4 flex flex-col gap-4 text-sm">
+          <NavLink to="/" onClick={() => setOpen(false)}>
+            Home
+          </NavLink>
+
+          <NavLink to="/contact" onClick={() => setOpen(false)}>
+            Contact
+          </NavLink>
+
+          <hr className="border-white/20" />
+
+          <NavLink to="/login" onClick={() => setOpen(false)}>
+            Log In
+          </NavLink>
+
+          <NavLink
+            to="/signup"
+            onClick={() => setOpen(false)}
+            className="bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-lg text-center"
+          >
+            Join Now
+          </NavLink>
+        </div>
+      )}
     </header>
   );
 }

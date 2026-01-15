@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 function Login() {
   return (
     <>
-      <section className="max-w-5xl mx-auto px-6 text-center m-20">
+      <section className="max-w-5xl mx-auto px-15 md:px-6  text-center m-20">
         {/* Header */}
         <div className="mb-12 rounded-lg">
-          <h1 className="text-6xl font-bold text-white mb-4">Se connecter</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Se connecter</h1>
         </div>
 
         {/* Form */}
@@ -43,7 +45,10 @@ function Login() {
         <div className="p-10 flex flex-col gap-10">
           <p>Mot de passe oublié ?</p>
           <p className="text-gray-400">
-            Vous n'avez pas un compte? Vous pouvez en créer un.
+            Vous n'avez pas de compte ?{' '}
+            <Link to="/signup" className="text-purple-700 hover:underline">
+              Créer un.
+            </Link>
           </p>
         </div>
       </section>

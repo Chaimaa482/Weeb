@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="max-w-5xl mx-auto px-6 text-center mt-20">
+      <section className="max-w-5xl mx-auto px-15 md:px-6 text-center mt-20">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
           Explorez le <span className="text-purple-400 font-normal">Web</span>{' '}
           sous toutes <br />
@@ -29,7 +29,7 @@ export default function Home() {
           </button>
         </div>
       </section>
-      <div className="relative shadow-2xl overflow-hidden max-w-6xl mx-auto px-6 mt-20">
+      <div className="relative shadow-2xl overflow-hidden max-w-6xl mx-auto px-15 md:px-6  mt-20">
         <img
           src="FirstPreview.png"
           alt="App preview"
@@ -38,8 +38,8 @@ export default function Home() {
       </div>
 
       {/* TRUSTED BY */}
-      <section className="max-w-6xl mx-auto px-6 mt-20 text-center">
-        <h2 className="font-semibold mb-15 text-5xl">
+      <section className="max-w-6xl mx-auto px-15 md:px-6  mt-20 text-center">
+        <h2 className="font-semibold mb-15 text-3xl md:text-5xl">
           Ils nous font confiance
         </h2>
 
@@ -57,13 +57,13 @@ export default function Home() {
       </section>
 
       {/* LEARN & PROGRESS */}
-      <section className="max-w-7xl mx-auto px-6 mt-32 grid md:grid-cols-2 gap-16 items-center">
+      <section className="max-w-7xl mx-auto px-15 md:px-6  mt-32 grid md:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-ms uppercase tracking-widest text-white mb-3">
             Des ressources pour tous les niveaux
           </p>
 
-          <h2 className="text-5xl font-extrabold mb-6 max-w-lg">
+          <h2 className="text-3xl md:text-5xl font-extrabold mb-6 max-w-lg">
             <span className="text-purple-400">Apprenez</span> et{' '}
             <span className="text-purple-400">progressez</span>
           </h2>
@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* STAY INFORMED */}
-      <section className="max-w-7xl mx-auto px-6 mt-32 mb-20 grid md:grid-cols-2 gap-16 items-center">
+      <section className="max-w-7xl mx-auto px-15 md:px-6 mt-32 mb-20 flex flex-col-reverse md:flex-row gap-16 items-center">
         <div className="relative flex justify-center">
           <img
             src="Shapes.png"
@@ -103,7 +103,7 @@ export default function Home() {
             Le web, un écosystème en constante évolution
           </p>
 
-          <h2 className="text-5xl font-extrabold mb-6">
+          <h2 className="text-3xl md:text-5xl font-extrabold mb-6">
             Restez informé des dernières{' '}
             <span className="text-purple-400">tendances</span>
           </h2>

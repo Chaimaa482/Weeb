@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom';
+
 function Signup() {
   return (
     <>
-      <section className="max-w-5xl mx-auto px-6 text-center m-20">
+      <section className="max-w-5xl mx-auto px-15 md:px-6  text-center m-20">
         {/* Header */}
         <div className="mb-12 rounded-lg">
-          <h1 className="text-6xl font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
             Créer un compte
           </h1>
         </div>
@@ -52,8 +54,12 @@ function Signup() {
             </div>
           </form>
         </div>
-        <p className="text-gray-400 p-10 ">
-          Vous avez déjà un compte? Vous pouvez vous connecter.
+        <p className="text-gray-400 p-10 "></p>
+        <p className="text-gray-400">
+          Vous avez déjà un compte?{' '}
+          <Link to="/login" className="text-purple-700 hover:underline">
+            Se connecter.
+          </Link>
         </p>
       </section>
     </>
